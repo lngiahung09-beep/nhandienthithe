@@ -16,7 +16,7 @@ fish_model = YOLO(fish_model_path)
 fish_model.to('mps')
 
 # 🧍 Model dò pose
-pose_model = YOLO("yolo11m-pose.pt")
+pose_model = YOLO("yolo11n-pose.pt")
 pose_model.to('mps')
 
 # 🎞️ Đường dẫn video
